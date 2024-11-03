@@ -85,7 +85,7 @@ function affichage(taches) {
             <h3 class="h-2 block ${colorP} rounded-r-lg rounded-l-lg"></h3>
             <p class="font-extrabold font-mono pb-4 pt-2"> ${tach.titre
             }</p>
-            <button id='${tach.id}' onclick="handle(${tach.id})" type="button" class="break-word sw-auto max-w-xs ml-3"><p id="descrip-${tach.id}" class="font-normal font-mono text-left line-clamp-2"> ${tach.description}</p></button>
+            <button id='${tach.id}' onclick="handle(${tach.id})" type="button" class="break-word sw-auto max-w-44 ml-3"><p id="descrip-${tach.id}" class="font-normal font-mono text-left line-clamp-2"> ${tach.description}</p></button>
             <p class="text-gray-600 block font-mono"> ${tach.deathline}</p>
             <button class="delettach"><img class="block h-4 w-4 " src="assets/images/sup.png" alt="image de supremer"></button>
         </div>`;
